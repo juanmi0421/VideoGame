@@ -9,12 +9,26 @@
  
  }
 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+
+/*font-family: 'Silkscreen', cursive;*/
+:root {
+    --dark-blue: #1F1F26;
+    --grey-blue: #485F73;
+    --light-grey-blue: #687E8C;
+    --white: #fdfbfb;
+    --black: #202020;
+
+}
+
+
 .NavBtn {
-    border: none;
-    box-shadow: none;
     padding: 0rem 2rem;
     background-color: var(--light-grey-blue);
+    border: none;
 }
+
 ul {
     padding: 0rem;
 }
@@ -35,6 +49,7 @@ a {
     background-color: var(--dark-blue);
     padding: 1rem 6rem;
 }
+
 .NavList {
     display: flex;
     justify-content: space-between;
@@ -42,6 +57,11 @@ a {
     list-style-type: none;
     margin: 0;
 }
+
+.logo {
+    width: 40px;
+}
+
 .NavMenu {
     display: flex;
 }
@@ -52,9 +72,15 @@ a {
     width: 100%;
     justify-content: flex-start;
 }
+
 .NavText {
-    font-family: 'VT323', monospace;
+    font-family: 'Silkscreen', cursive;
     color: var(--white);
+    font-size: 15pt;
+}
+
+.NavText:hover {
+    text-decoration: underline;
 }
 
 .NavLink {
@@ -62,6 +88,7 @@ a {
     justify-content: center;
     align-items: center;
 }
+
 
 body {
     font-family: Arial, sans-serif;
