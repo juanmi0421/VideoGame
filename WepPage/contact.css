@@ -78,7 +78,99 @@ a {
     align-items: center;
 }
 
-/*Aquí a el contenido de CSS de esta pestaña*/
+.gameform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    background-color: var(--light-grey-blue);
+    padding: 0 6rem;
+}
+
+.GameFormTop {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.GameFormTopLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    row-gap: 3rem;
+    color: var(--white);
+}
+
+.GameFormTopLeftDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.GameTitle {
+    font-family: 'Silkscreen', cursive;
+    font-size: 30pt;
+}
+
+.GameSubTitle {
+    font-family: 'Silkscreen', cursive;
+}
+
+.GameFormTopRight {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    height: 100%;
+    width: 50%;
+    
+}
+
+.FirstForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 1.3rem;
+    color: var(--white);
+    font-family: 'Silkscreen', cursive;
+}
+.FirstFormBottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--white);
+    font-family: 'Silkscreen', cursive;
+}
+
+.formBoxTop {
+    width: 100%;
+    height: 30px;
+    background-color: var(--dark-blue);
+    border: none;
+    color: var(--white);
+}
+.formBoxBottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+    height: 30vh;
+    background-color: var(--dark-blue);
+    border: none;
+    color: var(--white);
+}
+.GameFormBottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.FirstSummitBtn {
+    width: 30%;
+    height: 30px;
+}
 
 .footer {
     width: 100%;
