@@ -7,22 +7,119 @@
     <title>Landing</title>
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
     <header>
-    <nav class="NavBar">
-        <ul class="NavList">
-            <div class="NavListContLeft">
-                <li class="NavMenu"><a href="" class="NavLink"><h2 class="NavText">Historia</h2></a></li>
-                <li class="NavMenu"><a href="" class="NavLink"><h2 class="NavText">El proceso</h2></a></li>
-                <li class="NavMenu"><a href="" class="NavLink"><h2 class="NavText">Contácto</h2></a></li>
-            </div>
-            <li class="NavMenu"><button class="NavBtn"><a href="" class="NavLink"><h2 class="NavText">Cómprame</h2></a></button></li>
-        </ul>
-    </nav>
-    
+        <nav class="NavBar">
+            <ul class="NavList">
+                <div class="NavListContLeft">
+                    <a href="" class="logoLink"><img
+                            src="https://www.dropbox.com/scl/fi/hra00o3wiye1h1yd28tsz/Logo.svg?rlkey=uofkzkkuaostrvdxybjezyxqy&raw=1"
+                            alt="logo of a cloud coering the sun in pixel art" class="logo"></a>
+                    <li class="NavMenu"><a href="" class="NavLink">
+                            <h2 class="NavText">Historia</h2>
+                        </a></li>
+                    <li class="NavMenu"><a href="" class="NavLink">
+                            <h2 class="NavText">El proceso</h2>
+                        </a></li>
+                    <li class="NavMenu"><a href="" class="NavLink">
+                            <h2 class="NavText">Contácto</h2>
+                        </a></li>
+                </div>
+                <li class="NavMenu"><button class="NavBtn"><a href="https://store.steampowered.com/" target="_blank"
+                            class="NavLink">
+                            <h2 class="NavText">Cómprame</h2>
+                        </a></button></li>
+            </ul>
+        </nav>
+    </header>
     <section class="hero">
-
+        <div class="HeroLeft">
+            <div class="HeroTitle_text">
+                <h1 class="ValueP">Un juego para disfrutar de principio a fin</h1>
+                <h2 class="ValuePsub">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati
+                    ut, nisi debitis maxime dolorum consequatur.</h2>
+            </div>
+            <div class="HeroBtns">
+                <button class="HeroBtn1"><a href="" class="BuyMeBtnLink">
+                        <h2 class="HeroBtnText">Cómprame</h2>
+                    </a></button>
+                <button class="HeroBtn2"><a href="" class="TrailerBtnLink">
+                        <h2 class="HeroBtnText">Ver trailer</h2>
+                    </a><img class="playbtnphoto"
+                        src="https://www.dropbox.com/scl/fi/q2tir4abspbgm1jau4zku/PlayButton.png?rlkey=ofhyc8lmlll1p7cocswymp2gv&raw=1"
+                        alt="PlayButtonIcon"></button>
+            </div>
+        </div>
+        <div class="HeroRight">
+            <img src="https://www.dropbox.com/scl/fi/yg18s7dkry0an2wpfroqu/Background-1.png?rlkey=si6x5hurxia5qywo92r6eywen&raw=1"
+                alt="photo of a disc in the style of pixel art" class="HeroBgImg">
+            <img src="https://www.dropbox.com/scl/fi/er9b4dcj9rdwc7do3ul5e/album-1.png?rlkey=zu5u45mgx670ebqcrdnkdqr0u&raw=1"
+                alt="cover of album starboy in pixel art" class="Heroimg1">
+            <img src="https://www.dropbox.com/scl/fi/wyv7qklaovw2j9by5wm19/album-2.jpg?rlkey=fa8f191dbzw0pxk35k8k1he4a&raw=1"
+                alt="cover of gorillaz album in pixel art" class="Heroimg2">
+            <img src="https://www.dropbox.com/scl/fi/nhlmu5rphgx3m6b4z6saa/Album-3.png?rlkey=7nqj3m7wdmnd143fnlk5cjb1j&raw=1"
+                alt="cover of kanye west album in pixel art" class="Heroimg3">
+        </div>
     </section>
-</body>
+    <section class="banner">
+        <div class="bannerLeft">
+            <h1 class="BannerText">Entre letras y temas más alejo a los demás</h1>
+        </div>
+        <div class="bannerCenter">
+            <img src="https://www.dropbox.com/scl/fi/hra00o3wiye1h1yd28tsz/Logo.svg?rlkey=uofkzkkuaostrvdxybjezyxqy&raw=1"
+                alt="" class="logo">
+        </div>
+        <div class="bannerRight">
+            <button class="BannerBtn"><a href="" class="BannerLink">
+                    <h2 class="BannerBtnText">Más información</h2>
+                </a></button>
+        </div>
+    </section>
+    <section class="carousel" aria-label="carousel" Tabindex="0">
+        <a class="carousel__skip-link" href="#skip-link">Skip the Carousel</a>
+        <div class="slides">
+            <div class="slides-item slide-1" id="slide-1" aria-label="slide 1 of 5" tabindex="0"></div>
+            <div class="slides-item slide-2" id="slide-2" aria-label="slide 2 of 5" tabindex="0"></div>
+            <div class="slides-item slide-3" id="slide-3" aria-label="slide 3 of 5" tabindex="0"></div>
+            <div class="slides-item slide-4" id="slide-4" aria-label="slide 4 of 5" tabindex="0"></div>
+            <div class="slides-item slide-5" id="slide-5" aria-label="slide 5 of 5" tabindex="0"></div>
+        </div>
+        <div class="carousel__nav">
+            <a class="slider-nav" href="#slide-1" aria-label="Go to slide 1">1</a>
+            <a class="slider-nav" href="#slide-2" aria-label="Go to slide 2">2</a>
+            <a class="slider-nav" href="#slide-3" aria-label="Go to slide 3">3</a>
+            <a class="slider-nav" href="#slide-4" aria-label="Go to slide 4">4</a>
+            <a class="slider-nav" href="#slide-5" aria-label="Go to slide 5">5</a>
+        </div>
+        <div class="carousel__skip-message" id="skip-link" tabindex="0"></div>
+    </section>
+    <footer class="footer">
+        <div class="footerLeft">
+            <a href="" class="footerLink">
+                <h3 class="footerText">Historia</h3>
+            </a>
+            <a href="" class="footerLink">
+                <h3 class="footerText">El proceso</h3>
+            </a>
+            <a href="" class="footerLink">
+                <h3 class="footerText">Contácto</h3>
+            </a></div>
+        </div>
 
+        <div class="footerCenter">
+            <a href="" class="footerLink">
+                <h3 class="footerText">Cómprame</h3>
+            </a>
+            <a href="" class="footerLink">
+                <h3 class="footerText">Ver trailer</h3>
+            </a>
+        </div>
+        <div class="footerRight">
+            <a href="" class="logoLink"><img
+                src="https://www.dropbox.com/scl/fi/hra00o3wiye1h1yd28tsz/Logo.svg?rlkey=uofkzkkuaostrvdxybjezyxqy&raw=1"
+                alt="logo of a cloud coering the sun in pixel art" class="logo"></a>
+        </div>
+    </footer>
+</body>
 </html>
