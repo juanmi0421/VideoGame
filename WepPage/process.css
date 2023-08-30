@@ -78,7 +78,405 @@ a {
     align-items: center;
 }
 
-/*Aquí a el contenido de CSS de esta pestaña*/
+.hero {
+    width: 100%;
+    height: 90vh;
+    background-color: var(--grey-blue);
+    padding: 0rem 6rem;
+    display: flex;
+}
+
+.HeroLeft {
+    display: flex;
+    flex-flow: column;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2.5rem;
+
+}
+
+.HeroTitle_text {
+    display: flex;
+    flex-flow: column;
+    column-gap: normal;
+    row-gap: 0.6rem;
+}
+
+.ValueP {
+    font-family: 'Silkscreen', cursive;
+    color: var(--white);
+    font-size: 20pt;
+}
+
+.ValuePsub {
+    font-family: 'Silkscreen', cursive;
+    color: var(--white);
+    font-size: 13pt;
+}
+
+.HeroBtns {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;
+}
+
+.HeroBtn1 {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
+    background-color: var(--dark-blue);
+    border: none;
+}
+
+.HeroBtn2 {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 1rem;
+    background-color: transparent;
+    border-style: solid;
+    border: 2;
+    border-color: var(--dark-blue);
+}
+
+.HeroBtnText {
+    font-family: 'Silkscreen', cursive;
+    color: var(--white);
+    font-size: 15pt;
+}
+
+.HeroBtnText:hover {
+    text-decoration: underline;
+}
+
+.playbtnphoto {
+    width: 30px;
+    height: 20px;
+}
+
+.HeroRight {
+    overflow: hidden;
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.HeroBgImg {
+    position: absolute;
+    width: 700px;
+    opacity: 30%;
+}
+
+.Heroimg1 {
+    position: absolute;
+    width: 250px;
+    left: 60px;
+    top: 70px;
+}
+
+.Heroimg2 {
+    position: absolute;
+    width: 250px;
+    left: 270px;
+    top: 150px;
+}
+
+.Heroimg3 {
+    position: absolute;
+    width: 250px;
+    left: 110px;
+    top: 260px;
+}
+
+.banner {
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: var(--light-grey-blue);
+}
+
+.bannerLeft {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerCenter {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerRight {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.BannerText {
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    text-align: center;
+    color: var(--white);
+}
+
+.BannerBtn {
+    height: 100%;
+    width: 80%;
+    border: none;
+}
+
+.BannerLink {
+    text-decoration: none;
+}
+
+.BannerBtnText {
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    color: var(--dark-blue);
+}
+
+.BannerBtnText:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    padding: 0rem;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    background-color: var(--grey-blue);
+    height: 100%;
+    width: 100%;
+}
+
+.slides {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.slides::-webkit-scrollbar {
+    display: none;
+}
+
+.slides-item {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 100px;
+    height: 600px;
+    justify-content: center;
+    margin: 0 1rem;
+    position: relative;
+    scroll-snap-align: start;
+    transform: scale(1);
+    transform-origin: center center;
+    transition: transform .5s;
+    width: 100%;
+}
+
+.carousel__nav {
+    padding: 1.25rem .5rem;
+}
+
+.slider-nav {
+    font-family: 'Silkscreen', cursive;
+    align-items: center;
+    background-color: var(--dark-blue);
+    color: var(--white);
+    display: inline-flex;
+    height: 1.5rem;
+    justify-content: center;
+    padding: .5rem;
+    position: relative;
+    text-decoration: none;
+    width: 1.5rem;
+}
+
+.slider-nav:hover,
+.slider-nav:active {
+    background-color: var(--white);
+    color: var(--dark-blue);
+}
+
+.slide-1 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #fdc;
+    background-image: url(https://st.depositphotos.com/1796420/54207/v/600/depositphotos_542072466-stock-illustration-pixel-art-tired-male-character.jpg);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-2 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #bfd;
+    background-image: url(https://www.dropbox.com/scl/fi/8d1fapn656a8i3a41ol1c/pixel2.png?rlkey=0on9pnewr7km04fczzuqkbn4q&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-3 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #cdf;
+    background-image: url(https://www.dropbox.com/scl/fi/qq34ffk5z91otirtzixc6/pixel3.png?rlkey=b0ltv103gd6oxu9h539jll986&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-4 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #dca;
+    background-image: url(https://www.dropbox.com/scl/fi/zi5wms5fovrzyulpq8tek/pixel4.png?rlkey=8quhm7lsac1ggmcrzey8gndn1&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-5 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #ffc;
+    background-image: url(https://www.dropbox.com/scl/fi/kf3cq7duv4dxiqrwtx2qc/pixel5.png?rlkey=z1zj7aoeihdp958rh87gspuby&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.carousel__skip-link {
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: auto;
+    width: 1px;
+}
+
+.carousel__skip-link:focus {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    font-size: 30px;
+    height: 680px;
+    justify-content: center;
+    opacity: .8;
+    text-decoration: none;
+    width: 100%;
+    z-index: 1;
+}
+
+.slide-6 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #fdc;
+    background-image: url(https://www.dropbox.com/scl/fi/sy5j0uemsmbmpcu3wt99y/pixel6.png?rlkey=q7kgxgegaf83nmmfthu0lkfcl&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-7 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #bfd;
+    background-image: url(https://www.dropbox.com/scl/fi/knndm58pjljwxd3d7x4jn/pixel7.png?rlkey=kst5humc7bz45ctsmkmnaksf6&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-8 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #cdf;
+    background-image: url(https://www.dropbox.com/scl/fi/8tna5j2fp7od78d4qx1eq/pixel8.png?rlkey=12csu1x3oouc7wnoplr4vgwig&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-9 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #dca;
+    background-image: url(https://www.dropbox.com/scl/fi/pnyr8i2h1udax3fdyyi3x/pixel9.png?rlkey=hkb10hitske9w1h7h9hvwvtzk&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-10 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #ffc;
+    background-image: url(https://www.dropbox.com/scl/fi/zsvoazvjg6fs1nrtxaa8r/pixel10.png?rlkey=w2j1f2gm60r80cs7v29s1rym2&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-11 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #fdc;
+    background-image: url(https://www.dropbox.com/scl/fi/8jvphxemb2t3y00yqd6pd/pixel11.png?rlkey=ohp1i2eu5wryandmdmizn2lof&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-12 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #bfd;
+    background-image: url(https://www.dropbox.com/scl/fi/ginkzqkqtbhcv71hcp9dx/pixel12.png?rlkey=i9c8i4yprvf0fusk7egunu9e4&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-13 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #cdf;
+    background-image: url(https://www.dropbox.com/scl/fi/og2fjod3oxi21fpxlit5e/pixel13.png?rlkey=2k2yewi9tvmj56ccl7u8iktfs&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-14 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #dca;
+    background-image: url(https://www.dropbox.com/scl/fi/vbnia7snjd0gjrneduv16/pixel14.png?rlkey=90yzyl0ia5cwbz0614voepxmr&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.slide-15 {
+    font-family: 'Silkscreen', cursive;
+    background-color: #ffc;
+    background-image: url(https://www.dropbox.com/scl/fi/9kjngw7nrqgjv20jmd1dd/pixel15.png?rlkey=tjidiav0ir64jl0jjrcy9ft8u&raw=1);
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+}
 
 .footer {
     width: 100%;
@@ -126,4 +524,62 @@ a {
 
 .footerText:hover {
     text-decoration: underline;
+}
+
+.us {
+    padding: 3rem 6rem;
+    width: 100%;
+    height: min-content;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    background-color: var(--grey-blue);
+
+}
+
+.usTitle {
+    font-family: 'Silkscreen', cursive;
+    color: var(--white);
+    font-size: 20pt;
+}
+
+.programs {
+    padding: 2rem;
+    display: flex;
+    row-gap: 0.5rem;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+}
+
+.programsimages {
+    display: flex;
+}
+
+.programsText {
+    font-family: 'Silkscreen', cursive;
+    font-size: 20pt;
+    text-align: center;
+    color: var(--white);
+}
+
+.imagen {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: grey;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.divisor {
+    height: 5px;
+    background-color: var(--dark-blue);
 }
