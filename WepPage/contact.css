@@ -78,6 +78,7 @@ a {
     align-items: center;
 }
 
+/*Aquí a el contenido de CSS de esta pestaña*/
 .gameform {
     display: flex;
     flex-direction: column;
@@ -121,10 +122,10 @@ a {
 .GameFormTopRight {
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     height: 100%;
     width: 50%;
-    
+
 }
 
 .FirstForm {
@@ -135,7 +136,9 @@ a {
     color: var(--white);
     font-family: 'Silkscreen', cursive;
 }
+
 .FirstFormBottom {
+    row-gap: 1rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -150,16 +153,18 @@ a {
     border: none;
     color: var(--white);
 }
+
 .formBoxBottom {
     display: flex;
     align-items: flex-start;
     justify-content: start;
     width: 100%;
-    height: 30vh;
+    height: 26vh;
     background-color: var(--dark-blue);
     border: none;
     color: var(--white);
 }
+
 .GameFormBottom {
     display: flex;
     flex-direction: column;
@@ -168,8 +173,182 @@ a {
 }
 
 .FirstSummitBtn {
+    font-family: 'Silkscreen', cursive;
+    background-color: var(--white);
+    border: none;
     width: 30%;
     height: 30px;
+}
+
+.FirstSummitBtn:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    cursor: pointer;
+}
+
+.banner {
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: var(--grey-blue);
+}
+
+.bannerLeft {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerCenter {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerRight {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.BannerText {
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    text-align: center;
+    color: var(--white);
+}
+
+.BannerBtn {
+    height: 100%;
+    width: 80%;
+    border: none;
+}
+
+.BannerLink {
+    text-decoration: none;
+}
+
+.BannerBtnText {
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    color: var(--dark-blue);
+}
+
+.BannerBtnText:hover {
+    text-decoration: underline;
+}
+
+.workform {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    background-color: grey;
+    padding: 0 6rem;
+}
+
+.workFormTop {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.workFormTopLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    row-gap: 3rem;
+    color: var(--white);
+}
+
+.workFormTopLeftDiv {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.GameTitle {
+    font-family: 'Silkscreen', cursive;
+    font-size: 30pt;
+}
+
+.GameworkSubTitle {
+    font-family: 'Silkscreen', cursive;
+}
+
+.workFormTopRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+
+}
+
+.SecondForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    row-gap: 1.3rem;
+    color: var(--white);
+    font-family: 'Silkscreen', cursive;
+}
+
+.SecondFormBottom {
+    row-gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: var(--white);
+    font-family: 'Silkscreen', cursive;
+}
+
+.formBoxTop {
+    width: 100%;
+    height: 30px;
+    background-color: var(--dark-blue);
+    border: none;
+    color: var(--white);
+}
+
+.formBoxBottom {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    width: 100%;
+    height: 26vh;
+    background-color: var(--dark-blue);
+    border: none;
+    color: var(--white);
+}
+
+.workFormBottom {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.FirstSummitBtn {
+    font-family: 'Silkscreen', cursive;
+    background-color: var(--white);
+    border: none;
+    width: 30%;
+    height: 30px;
+}
+
+.FirstSummitBtn:hover {
+    background-color: var(--dark-blue);
+    color: var(--white);
+    cursor: pointer;
 }
 
 .footer {
