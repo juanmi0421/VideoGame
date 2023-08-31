@@ -80,37 +80,73 @@ a {
     align-items: center;
 }
 
-/*Aquí a el contenido de CSS de esta pestaña*/
-.title{
-    position: relative;
-    top: 80px;
+.navdivisor {
+    display: flex;
     width: 100%;
-    height: 100vh;
+    height: 80px;
+}
+
+/*Aquí a el contenido de CSS de esta pestaña*/
+.title {
+    width: 100%;
+    height: 90vh;
     background-color: var(--grey-blue);
     padding: 0rem 6rem;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: column;
+    row-gap: 2rem;
+    background-image: url(https://www.dropbox.com/scl/fi/140erofwt7ie2h8mcf3yt/fondo_story2.gif?rlkey=c75u9g30sdkr9eckq3q1sh8mm&raw=1);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.hola{
+.Texto1 {
     font-family: 'Silkscreen', cursive;
     color: var(--white);
     font-size: 20pt;
 }
-.hola2{
+
+.Texto2 {
     font-family: 'Silkscreen', cursive;
-    color: var(--black);
-    font-size: 40pt;
+    color: var(--white);
+    font-size: 60pt;
 }
-.hola3{
+
+.Texto3 {
     display: flex;
     font-family: 'Silkscreen', cursive;
     color: var(--white);
     font-size: 20pt;
     justify-content: center;
     text-align: center;
+    text-decoration-color: aqua;
+}
+
+.highlight {
+    background-color: var(--dark-blue);
+}
+
+.heroDiv {
+    width: 100%;
+    height: 2rem;
+}
+
+.BotonTrailer {
+    border: none;
+    padding: 1rem;
+    background-color: var(--light-grey-blue);
+}
+
+.HeroBtnText {
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    color: var(--white);
+}
+
+.HeroBtnText:hover {
+    text-decoration: underline;
 }
 
 .banner {
@@ -180,61 +216,68 @@ a {
     overflow: hidden;
     text-align: center;
     background-color: #79838A;
-    height: 1000px;
+    height: 90vh;
     width: 100%;
     align-items: center;
 }
 
-#box1{
+#box1 {
     position: relative;
     display: flex;
     border: 1px solid;
     height: 1000px;
-    width: 80%; 
+    width: 80%;
     margin: auto;
 }
-.textbox{
+
+.textbox {
     display: flex;
     width: 40%;
     align-items: center;
     justify-content: center;
     margin: auto;
 }
-.lorembox{
+
+.lorembox {
     font-family: 'Silkscreen', cursive;
     font-size: 16pt;
-    color: var(--white);  
+    color: var(--white);
 }
 
 .banner2 {
-    position: relative;
     padding: 2rem 6rem;
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 120px;
+    height: 300px;
     background-color: var(--light-grey-blue);
 }
 
 .bannerLeft2 {
     display: flex;
-    width: 40%;
+    width: 250px;
     align-items: center;
     justify-content: center;
+    background-image: url(https://www.dropbox.com/scl/fi/aqpvqe7c9xx11ddzatwmn/album-5.jpg?rlkey=xvgqwk5ad75salbck91uu2ve8&raw=1);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bannerCenter2 {
     display: flex;
-    width: 20%;
+    width: 40%;
     align-items: center;
     justify-content: center;
 }
 
 .bannerRight2 {
     display: flex;
-    width: 40%;
+    width: 250px;
     align-items: center;
     justify-content: center;
+    background-image: url(https://www.dropbox.com/scl/fi/8y9r9sqa082bvtu0nsw95/album-6.jpg?rlkey=d09lu6y4wkk9a6uebv4jicqvr&raw=1);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -265,35 +308,39 @@ a {
     text-decoration: underline;
 }
 
-.trailer{
-    justify-content: space-evenly;
-    position: relative;
+.trailer {
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     background-color: var(--grey-blue);
-    padding: 0rem 6rem;
+    padding: 2rem 6rem 4rem 6rem;
     display: flex;
     align-items: center;
     flex-direction: column;
 }
-.holatrailer{
-    position: relative;
-    top: 50px;
+
+.trailerTitle {
+    font-family: 'Silkscreen', cursive;
+    color: var(--white);
+    font-size: 30pt;
+    padding: 0 0 2rem 0;
+}
+
+.holatrailer {
     font-family: 'Silkscreen', cursive;
     color: var(--black);
     font-size: 40pt;
 }
-.box2{
+
+.box2 {
     background-color: aliceblue;
-    position: relative;
     display: flex;
     border: 1px solid;
     height: 600px;
-    width: 80%; 
-    margin: auto;
+    width: 80%;
     justify-content: center;
     align-items: center;
 }
+
 .footer {
     width: 100%;
     height: 200px;
