@@ -32,6 +32,8 @@ a {
 }
 
 .NavBar {
+    position: fixed;
+    z-index: 1;
     display: flex;
     width: 100%;
     height: 80px;
@@ -79,7 +81,209 @@ a {
 }
 
 /*Aquí a el contenido de CSS de esta pestaña*/
+.title{
+    position: relative;
+    top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--grey-blue);
+    padding: 0rem 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
 
+.hola{
+    font-family: 'Silkscreen', cursive;
+    color: var(--white);
+    font-size: 20pt;
+}
+.hola2{
+    font-family: 'Silkscreen', cursive;
+    color: var(--black);
+    font-size: 40pt;
+}
+.hola3{
+    display: flex;
+    font-family: 'Silkscreen', cursive;
+    color: var(--white);
+    font-size: 20pt;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner {
+    position: relative;
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: var(--light-grey-blue);
+}
+
+.bannerLeft {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerCenter {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerRight {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.BannerText {
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    text-align: center;
+    color: var(--white);
+}
+
+.BannerBtn {
+    height: 100%;
+    width: 80%;
+    border: none;
+}
+
+.BannerLink {
+    text-decoration: none;
+}
+
+.BannerBtnText {
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    color: var(--dark-blue);
+}
+
+.BannerBtnText:hover {
+    text-decoration: underline;
+}
+
+.Story {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 6rem;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    background-color: #79838A;
+    height: 1000px;
+    width: 100%;
+    align-items: center;
+}
+
+#box1{
+    position: relative;
+    display: flex;
+    border: 1px solid;
+    height: 1000px;
+    width: 80%; 
+    margin: auto;
+}
+.textbox{
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.lorembox{
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    color: var(--white);  
+}
+
+.banner2 {
+    position: relative;
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background-color: var(--light-grey-blue);
+}
+
+.bannerLeft2 {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerCenter2 {
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerRight2 {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.BannerText2 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    text-align: center;
+    color: var(--white);
+}
+
+.BannerBtn2 {
+    height: 100%;
+    width: 80%;
+    border: none;
+}
+
+.BannerLink2 {
+    text-decoration: none;
+}
+
+.BannerBtnText2 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 16pt;
+    color: var(--dark-blue);
+}
+
+.BannerBtnText2:hover {
+    text-decoration: underline;
+}
+
+.trailer{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--grey-blue);
+    padding: 0rem 6rem;
+    display: flex;
+}
+.box2{
+    background-color: aliceblue;
+    position: relative;
+    display: flex;
+    border: 1px solid;
+    height: 600px;
+    width: 80%; 
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
 .footer {
     width: 100%;
     height: 200px;
