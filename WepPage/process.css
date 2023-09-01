@@ -48,7 +48,7 @@ a {
 }
 
 .logo {
-    width: 40px;
+    width: 50px;
 }
 
 .NavMenu {
@@ -63,6 +63,7 @@ a {
 }
 
 .NavText {
+    z-index: 2;
     font-family: 'Silkscreen', cursive;
     color: var(--white);
     font-size: 15pt;
@@ -100,8 +101,7 @@ a {
 .HeroTitle_text {
     display: flex;
     flex-flow: column;
-    column-gap: normal;
-    row-gap: 0.6rem;
+    row-gap: 1rem;
 }
 
 .ValueP {
@@ -169,36 +169,36 @@ a {
     width: 50%;
     height: 100%;
     justify-content: center;
+    flex-direction: column;
+    row-gap: 70px;
     align-items: center;
-    position: relative;
 }
 
 .HeroBgImg {
-    position: absolute;
     width: 700px;
     opacity: 30%;
+    z-index: 1;
+    position: absolute;
 }
 
 .Heroimg1 {
-    position: absolute;
+    margin: -80px -70px -230px -300px;
     width: 250px;
-    left: 60px;
-    top: 70px;
+    z-index: 1;
 }
 
 .Heroimg2 {
-    position: absolute;
+    margin: 0 -190px -190px 0px;
     width: 250px;
-    left: 270px;
-    top: 150px;
+    z-index: 2;
 }
 
 .Heroimg3 {
-    position: absolute;
+    margin: 0 -100px -90px -200px;
     width: 250px;
-    left: 110px;
-    top: 260px;
+    z-index: 3;
 }
+
 
 .banner {
     padding: 2rem 6rem;
